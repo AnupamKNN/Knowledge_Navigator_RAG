@@ -37,7 +37,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/anupamKNN/knowledge-navigator-rag:latest:latest
+          tags: ghcr.io/anupamKNN/knowledge-navigator-rag:latest
 
   deploy:
     name: Deployment
