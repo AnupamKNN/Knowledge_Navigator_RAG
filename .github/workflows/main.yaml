@@ -37,9 +37,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: |
-            ${{ env.IMAGE_NAME }}:latest
-            ${{ env.IMAGE_NAME }}:${{ github.sha }}
+          tags: ghcr.io/anupamKNN/knowledge-navigator-rag:latest:latest
 
   deploy:
     name: Deployment
