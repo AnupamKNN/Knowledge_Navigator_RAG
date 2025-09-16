@@ -209,7 +209,7 @@ def parse_mcq(mcq_text: str):
 
 # ========= STREAMLIT APP =========
 def main():
-    st.title("Multi-Agent GenAI Knowledge Navigator for InfoFusion Technologies Pvt. Ltd.")
+    st.title("Knowledge Navigator for InfoFusion Technologies Pvt. Ltd.")
 
     # --- Sidebar: Provider + Model + Key persistence ---
     st.sidebar.header("⚙️ Model Configuration")

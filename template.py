@@ -31,7 +31,7 @@ list_of_files = [
     "tests/__init__.py",
 
     "main.py",
-    "app.py",                      # kept at root level as requested
+    "app.py",                     
     "Dockerfile",
     ".gitignore",
     ".dockerignore",
