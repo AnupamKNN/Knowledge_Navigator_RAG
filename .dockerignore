@@ -1,0 +1,44 @@
+# Ignore virtualenvs
+bienv/
+venv/
+.env        # if it's a venv folder, not the env file
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Git / DVC metadata
+.git/
+.dvc/
+.dvcignore
+
+# IDE / editor folders
+.vscode/
+.idea/
+
+# Notebooks and research code
+research_notebooks/
+
+
+# Large unused data and artifacts (keep only what image actually needs)
+Artifacts/
+project_data/
+project_logs/
+catboost_info/ # unless you really need them baked into the image — if yes, copy selectively in Dockerfile
+
+# Build leftovers
+*.log
+*.tmp
+*.bak
+
+# Local plugins if not needed in image
+plugins/
+
+# Ignore docker-related local files
+docker-compose*.yml
+
+# OS-specific
+.DS_Store
+Thumbs.db

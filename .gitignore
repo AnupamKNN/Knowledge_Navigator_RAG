@@ -1,0 +1,79 @@
+# Ignore Project Logs
+project_logs
+
+# Ignore everything in final_models except .pkl files
+
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment folders and .env
+.env
+bienv/
+venv/
+.envrc
+
+# IDE/config files
+.vscode/
+.idea/
+*.swp
+
+# Logs
+logs/
+*.log
+# Ignore CSV and parquet files in data_ingestion/feature_store
+data_ingestion/feature_store/*.csv
+data_ingestion/feature_store/*.parquet
+
+# Ignore csv files in data_ingestion/ingested
+Artifact/data_ingestion/ingested/test.csv
+Artifact/data_ingestion/ingested/train.csv
+
+# Ignore csv files in data_validation/validated
+Artifact/data_validation/validated/*.csv
+
+# Ignore csv and pkl files in data_transformation/transformed
+Artifact/data_transformation/transdormed/*.csv
+Artifact/data_transformation/*.pkl
+Artifact/data_transformation/transformed/test.csv
+Artifact/data_transformation/transformed/train.csv
+
+# Ignore large data files generally except in final_models
+# (removes ignoring CSV files globally, as they can be important except in ML_research_notebooks)
+*.npy
+*.npz
+*.pt
+*.onnx
+*.h5
+
+# Ignore large CSVs only in certain folders (example: ML_research_notebooks)
+# ML_research_notebooks/Cleaned_Data/*.csv
+# ML_research_notebooks/Data/*.csv
+
+# Ignore CSV and joblib files everywhere else except final_models
+# *.csv
+
+# Allow DVC and folder structure tracking
+!*.dvc
+!.gitkeep
+
+# (Optional) Ignore experiment outputs
+.experiments/
+checkpoints/
+runs/
+
+# Ignore all files inside Artifacts except DVC metadata and keep folder structure
+Artifacts/**
+!Artifacts/**/*.dvc
+!Artifacts/**/*.dvc.*
+!Artifacts/**/.gitkeep
+!Artifacts/**/
+.env
+
+# Ignore tuner_dir
+Artifact/model_trainer/tuner_dir
