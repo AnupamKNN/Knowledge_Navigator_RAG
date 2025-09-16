@@ -125,7 +125,7 @@ The GenAI Knowledge Navigator is a Retrieval-Augmented Generation (RAG) platform
 
 The Docker image is pre-built and pushed to GitHub Container Registry (GHCR). Pull it directly:
   ```bash
-  docker pull ghcr.io/AnupamKNN/knowledge-navigator-rag:latest
+  docker pull ghcr.io/anupamknn/knowledge-navigator-rag:latest
   ```
 
 **Or build locally from source:**
@@ -140,7 +140,7 @@ The Docker image is pre-built and pushed to GitHub Container Registry (GHCR). Pu
 2.  **Run the Docker Container:**
 Once the image is pulled, you can run the application. The container will listen on map port `8502` on your local machine (adjust if your app uses a different port).
   ```bash
-  docker run -p 8503:8503 ghcr.io/AnupamKNN/knowledge-navigator-rag:latest
+  docker run -p 8503:8503 ghcr.io/anupamknn/knowledge-navigator-rag:latest
   ```
 
 3.  **Access the Application:**
