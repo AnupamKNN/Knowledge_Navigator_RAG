@@ -22,7 +22,7 @@ The mission of the company is to accelerate knowledge adoption, close skill gaps
 | Chief Learning Officer (Stakeholder) | Ms. Sarvesh Jain | Oversees upskilling strategy, validates learning outcomes                      |
 | Director of AI Initiatives          | Dr. Prashant Rao | Guides GenAI adoption, ensures compliance with industry standards              |
 | Program Manager                     | Neha Sethi     | Coordinates timelines, risk management, and cross-functional collaboration     |
-| Lead Data Scientist                 | Anupam Singh   | Architectures RAG system, LLM integrations, and learning analytics             |
+| Generative AI Engineer                 | Anupam Singh   | Architectures RAG system, LLM integrations, and learning analytics             |
 | Machine Learning Engineer (MLOps)   | Vikram Chawla  | CI/CD pipelines, containerization, cloud deployment and versioning             |
 | Frontend Developer                  | Geetika Sharma | Designs Streamlit UI, feedback loops, and reporting modules                    |
 | Data Platform Engineer              | Shubham Joshi  | Knowledge ingestion, vector DB management, and data reliability                |
