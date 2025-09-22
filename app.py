@@ -23,7 +23,7 @@ import streamlit as st
 load_dotenv()
 
 # Initialize embedding model (force CPU to avoid meta tensor errors if needed)
-embedder = SentenceTransformer("all-MiniLM-L6-v2", device="cpu")
+embedder = SentenceTransformer("all-MiniLM-L6-v2")
 
 # Connect to ChromaDB
 client = chromadb.PersistentClient(path="resources/db/chromadb_data")
