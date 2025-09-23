@@ -1,8 +1,8 @@
 ## 📚 Multi-Agent GenAI Knowledge Navigator for InfoFusion Technologies Pvt. Ltd.
 
-[Link to Live Project]()
+[Link to Live Project](https://knowledgenavigatorrag-hqmpq4rhluw9h43ouexzq8.streamlit.app/)
 
-[Link to Presentation Video]()
+[Link to Presentation Video](https://youtu.be/ooi0HEy_pzU)
 
 [Link to LinkedIn Post]()
 
