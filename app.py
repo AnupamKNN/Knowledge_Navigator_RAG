@@ -26,7 +26,7 @@ load_dotenv()
 # Initialize embedding model (force CPU to avoid meta tensor errors if needed)
 device = "cuda" if torch.cuda.is_available() else "cpu"
 embedder = SentenceTransformer("all-MiniLM-L6-v2", device=device)
-embedder = SentenceTransformer("all-MiniLM-L6-v2")
+
 
 # Connect to ChromaDB
 client = chromadb.PersistentClient(path="resources/db/chromadb_data")
