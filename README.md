@@ -232,7 +232,7 @@ This makes it easy for anyone cloning your repo to set up their environment corr
 | 🗂️ Resource Reach      | 100% coverage of required compliance/tech domains for all target roles              |
 
 - **Peak Insights:**  
-  - Microlearning modules mapped to certification objectives led to **22% faster onboarding** for new tech hires  
+  - Microlearning modules (through MCQs) mapped to certification objectives led to **22% faster onboarding** for new tech hires  
   - Cross-referencing internal guides with live sources detected and corrected outdated regulatory advice in 2 major domains  
   - Interview prep content tailored by role increased success rates in internal upskilling tests
 
