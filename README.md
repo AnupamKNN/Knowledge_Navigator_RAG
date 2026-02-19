@@ -1,4 +1,4 @@
-## 📚 Multi-Agent GenAI Knowledge Navigator for InfoFusion Technologies Pvt. Ltd.
+## 📚 GenAI Knowledge Navigator for InfoFusion Technologies Pvt. Ltd.
 
 [Link to Live Project]()
 
