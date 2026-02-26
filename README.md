@@ -1,10 +1,10 @@
 ## 📚 GenAI Knowledge Navigator for InfoFusion Technologies Pvt. Ltd.
 
-[Link to Live Project]()
+[Link to Live Project](https://knowledgenavigatorrag-hqmpq4rhluw9h43ouexzq8.streamlit.app/)
 
-[Link to Presentation Video]()
+[Link to Presentation Video](https://youtu.be/ooi0HEy_pzU)
 
-[Link to LinkedIn Post]()
+[Link to LinkedIn Post](https://www.linkedin.com/posts/anupam-singh-1l_genai-enterpriselearning-ai-activity-7378633499836235776-0FTA?utm_source=share&utm_medium=member_desktop&rcm=ACoAACTx8xsBG5OdxDsxposmyvR-JD_HZhoD33I)
 
 ---
 
